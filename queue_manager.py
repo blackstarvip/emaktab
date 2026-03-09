@@ -4,6 +4,7 @@ from worker import login_student
 
 task_queue = Queue()
 
+print("QUEUE MANAGER LOADED", flush=True)
 def worker():
 
     while True:
