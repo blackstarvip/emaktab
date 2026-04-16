@@ -1,5 +1,0 @@
-flask
-selenium
-chromium
-chromedriver
-tesseract
