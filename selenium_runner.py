@@ -18,7 +18,7 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 log = logging.getLogger('selenium_runner')
 
 EMAKTAB_URL   = os.environ.get('EMAKTAB_URL', 'https://login.emaktab.uz')
-LOGIN_TIMEOUT = int(os.environ.get('LOGIN_TIMEOUT', '5'))
+LOGIN_TIMEOUT = int(os.environ.get('LOGIN_TIMEOUT', '10'))
 
 
 def _make_driver():
